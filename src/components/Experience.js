@@ -36,6 +36,7 @@ function Experience() {
       - Technologies: Python, Ansible, Shell scripting, Jenkins, Docker
       </p>
     </TimelineItem>
+    {/*
     <TimelineItem
       key="002"
       dateText="06/2020 – Present"
@@ -74,6 +75,7 @@ function Experience() {
       </p>
 
     </TimelineItem>
+    */}
     <TimelineItem
       key="004"
       dateText="07/2018 – 03/2019"
