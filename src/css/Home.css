@@ -1,0 +1,73 @@
+.AboutMe{
+  padding-bottom:  calc(8em + 1vh);
+  padding-top: calc(8em + 1vh);
+  background-color: #f8f9fc;
+}
+.mine{
+border: 0.7em solid white;
+height: calc(23em + 1vh);
+width: calc(23em + 1vh);
+
+box-shadow: 0 4px 100px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+@media screen and (max-width: 600px) {
+  .mine{
+  height: calc(15em + 1vh);
+  width: calc(15em + 1vh);
+
+  }
+}
+
+.AboutMe .btn{
+  margin-top: 1em;
+}
+.AboutText{
+  margin-top: calc(2.2em + 1vh);
+
+}
+.AboutText p{
+  font-family: 'Poppins', sans-serif;
+font-weight: 400;
+text-transform: uppercase;
+letter-spacing: 4px;
+margin-bottom: 20px;
+}
+.AboutText h1{
+  font-family: 'Montserrat', sans-serif;
+
+
+}
+.AboutText span{
+  color: red;
+  font-family: 'Montserrat', sans-serif;
+
+}
+@media screen and (max-width: 600px) {
+  .AboutText h1 {
+    font-size: calc(1.5em + 1vh);
+
+  }
+}
+@media screen and (min-width: 601px) {
+  .AboutText h1 {
+    font-size: calc(2.7em + 1vh);
+
+  }
+}
+@media screen and (min-width: 601px) {
+  .AboutText span {
+    font-size: calc(3em + 1vh);
+  }
+}
+@media screen and (max-width: 600px) {
+  .AboutText span {
+    font-size: calc(1.4em + 1vh);
+  }
+}
+
+
+@media screen and (min-width: 601px) {
+  .AboutText {
+    margin-left: calc(1em + 1vh);
+  }
+}

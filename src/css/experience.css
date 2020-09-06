@@ -1,0 +1,67 @@
+.Experience{
+    background-color: white;
+
+}
+.timeline--wrapper {
+  padding: 0px 10px;
+}
+.timeline {
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+.vertical-timeline-element{
+       border-radius: 2px;
+       margin-bottom: 15px;
+       opacity: 1;
+      transition: 0.3s;
+     }
+.vertical-timeline-element:hover {
+  transition: 0.5s;
+}
+.icon{
+  padding-top: 7px;
+}
+.Experience h1{
+  padding-top: 0.5em;
+  margin: 0px;
+  font-size: bold;
+  color: black;
+  font-family: 'Special Elite', cursive;
+
+}
+.Experience h3{
+  font-size: 1.5em;
+  font-weight: bold;
+
+}
+@media screen and (max-width: 600px) {
+  .Experience h3{
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+}
+.Experience h4{
+  font-size: 1.3em;
+  font-weight: bold;
+
+}
+@media screen and (max-width: 600px) {
+  .Experience h4{
+    font-size: 1.3em;
+    font-weight: bold;
+  }
+}
+.Experience p{
+  margin: 1px;
+}
+
+
+.vertical-timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 18px;
+    height: 100%;
+    width: 4px;
+    background: #a9a9a9;
+}

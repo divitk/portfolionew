@@ -1,0 +1,28 @@
+.navbar {
+  z-index: 99999;
+  background-color: white;
+  /*whichever you want*/
+  opacity: 0.7;
+  /*0.5 determines transparency value*/
+  filter: (opacity=50);
+  padding: 1em;
+}
+
+.nav-item p{
+  margin: 0px 10px;
+  color: black!important;
+}
+
+@media screen and (min-width: 1400px) {
+  .nav{
+    padding-left: 21em;
+  }
+}
+.nav-link {
+  cursor: pointer;
+
+}
+.Link{
+  color: black;
+  background-color: white;
+}
